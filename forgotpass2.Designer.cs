@@ -35,6 +35,7 @@
             this.txtconfpass = new System.Windows.Forms.TextBox();
             this.txtnewpass = new System.Windows.Forms.TextBox();
             this.lbcheckpass = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnok
@@ -105,6 +106,16 @@
             this.lbcheckpass.TabIndex = 7;
             this.lbcheckpass.Text = "...";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(264, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(167, 28);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "New Password";
+            // 
             // forgotpass2
             // 
             this.AcceptButton = this.btnok;
@@ -112,6 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(654, 282);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbcheckpass);
             this.Controls.Add(this.txtnewpass);
             this.Controls.Add(this.txtconfpass);
@@ -138,5 +150,6 @@
         private System.Windows.Forms.TextBox txtconfpass;
         private System.Windows.Forms.TextBox txtnewpass;
         private System.Windows.Forms.Label lbcheckpass;
+        private System.Windows.Forms.Label label1;
     }
 }

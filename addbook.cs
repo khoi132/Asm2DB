@@ -67,7 +67,7 @@ namespace Asm2DB
                 cmdd.Parameters.Add("@bname", SqlDbType.NChar, 40).Value = txtbname.Text;
                 cmdd.Parameters.Add("@bdes", SqlDbType.NChar, 100).Value = txtbdes.Text;
 
-                cmdd.ExecuteNonQuery();
+                cmdd.ExecuteNonQuery(); 
 
                 cmdd = conn.CreateCommand();
 

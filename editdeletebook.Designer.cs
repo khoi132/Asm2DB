@@ -49,6 +49,7 @@
             this.txtbname = new System.Windows.Forms.TextBox();
             this.btnokdes = new System.Windows.Forms.Button();
             this.btncaldes = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnedit
@@ -259,11 +260,22 @@
             this.btncaldes.Visible = false;
             this.btncaldes.Click += new System.EventHandler(this.btncaldes_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(295, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(130, 31);
+            this.label6.TabIndex = 33;
+            this.label6.Text = "Edit Book";
+            // 
             // editdeletebook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(720, 471);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btncaldes);
             this.Controls.Add(this.btnokdes);
             this.Controls.Add(this.btnok);
@@ -318,5 +330,6 @@
         private System.Windows.Forms.TextBox txtbname;
         private System.Windows.Forms.Button btnokdes;
         private System.Windows.Forms.Button btncaldes;
+        private System.Windows.Forms.Label label6;
     }
 }

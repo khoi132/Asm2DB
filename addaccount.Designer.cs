@@ -41,17 +41,18 @@
             this.btnback = new System.Windows.Forms.Button();
             this.btnaddu = new System.Windows.Forms.Button();
             this.dgvregister = new System.Windows.Forms.DataGridView();
-            this.btnclear = new System.Windows.Forms.Button();
-            this.btndel = new System.Windows.Forms.Button();
-            this.btnrefresh = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txturoleid = new System.Windows.Forms.TextBox();
             this.UserID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserPass = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RoleID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnclear = new System.Windows.Forms.Button();
+            this.btndel = new System.Windows.Forms.Button();
+            this.btnrefresh = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txturoleid = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvregister)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,53 +178,6 @@
             this.dgvregister.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvregister_CellClick);
             this.dgvregister.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvregister_CellContentClick);
             // 
-            // btnclear
-            // 
-            this.btnclear.Location = new System.Drawing.Point(345, 288);
-            this.btnclear.Name = "btnclear";
-            this.btnclear.Size = new System.Drawing.Size(93, 51);
-            this.btnclear.TabIndex = 8;
-            this.btnclear.Text = "Clear";
-            this.btnclear.UseVisualStyleBackColor = true;
-            this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
-            // 
-            // btndel
-            // 
-            this.btndel.Location = new System.Drawing.Point(211, 357);
-            this.btndel.Name = "btndel";
-            this.btndel.Size = new System.Drawing.Size(93, 51);
-            this.btndel.TabIndex = 7;
-            this.btndel.Text = "Delete";
-            this.btndel.UseVisualStyleBackColor = true;
-            this.btndel.Click += new System.EventHandler(this.btndel_Click);
-            // 
-            // btnrefresh
-            // 
-            this.btnrefresh.Location = new System.Drawing.Point(478, 357);
-            this.btnrefresh.Name = "btnrefresh";
-            this.btnrefresh.Size = new System.Drawing.Size(93, 51);
-            this.btnrefresh.TabIndex = 9;
-            this.btnrefresh.Text = "Refresh";
-            this.btnrefresh.UseVisualStyleBackColor = true;
-            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(55, 258);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 17);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "RoleID:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // txturoleid
-            // 
-            this.txturoleid.Location = new System.Drawing.Point(155, 255);
-            this.txturoleid.Name = "txturoleid";
-            this.txturoleid.Size = new System.Drawing.Size(176, 23);
-            this.txturoleid.TabIndex = 3;
-            // 
             // UserID
             // 
             this.UserID.DataPropertyName = "UserID";
@@ -271,6 +225,63 @@
             this.RoleID.Name = "RoleID";
             this.RoleID.ReadOnly = true;
             // 
+            // btnclear
+            // 
+            this.btnclear.Location = new System.Drawing.Point(345, 288);
+            this.btnclear.Name = "btnclear";
+            this.btnclear.Size = new System.Drawing.Size(93, 51);
+            this.btnclear.TabIndex = 8;
+            this.btnclear.Text = "Clear";
+            this.btnclear.UseVisualStyleBackColor = true;
+            this.btnclear.Click += new System.EventHandler(this.btnclear_Click);
+            // 
+            // btndel
+            // 
+            this.btndel.Location = new System.Drawing.Point(211, 357);
+            this.btndel.Name = "btndel";
+            this.btndel.Size = new System.Drawing.Size(93, 51);
+            this.btndel.TabIndex = 7;
+            this.btndel.Text = "Delete";
+            this.btndel.UseVisualStyleBackColor = true;
+            this.btndel.Click += new System.EventHandler(this.btndel_Click);
+            // 
+            // btnrefresh
+            // 
+            this.btnrefresh.Location = new System.Drawing.Point(478, 357);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(93, 51);
+            this.btnrefresh.TabIndex = 9;
+            this.btnrefresh.Text = "Refresh";
+            this.btnrefresh.UseVisualStyleBackColor = true;
+            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(55, 258);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 17);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "RoleID:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // txturoleid
+            // 
+            this.txturoleid.Location = new System.Drawing.Point(155, 255);
+            this.txturoleid.Name = "txturoleid";
+            this.txturoleid.Size = new System.Drawing.Size(176, 23);
+            this.txturoleid.TabIndex = 3;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(351, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(220, 31);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Manage Account";
+            // 
             // addaccount
             // 
             this.AcceptButton = this.btnaddu;
@@ -278,6 +289,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(1118, 444);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dgvregister);
             this.Controls.Add(this.btnrefresh);
@@ -333,5 +345,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn UserEmail;
         private System.Windows.Forms.DataGridViewTextBoxColumn UserPass;
         private System.Windows.Forms.DataGridViewTextBoxColumn RoleID;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -62,13 +62,14 @@
             this.lboldpass = new System.Windows.Forms.Label();
             this.lbnewpass = new System.Windows.Forms.Label();
             this.lbcnewpass = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtaginfor)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(360, 36);
+            this.label1.Location = new System.Drawing.Point(394, 74);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 17);
             this.label1.TabIndex = 0;
@@ -77,7 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(327, 72);
+            this.label2.Location = new System.Drawing.Point(361, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 0;
@@ -86,7 +87,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(331, 115);
+            this.label3.Location = new System.Drawing.Point(365, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 17);
             this.label3.TabIndex = 0;
@@ -95,7 +96,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(322, 157);
+            this.label4.Location = new System.Drawing.Point(356, 195);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 17);
             this.label4.TabIndex = 0;
@@ -106,7 +107,7 @@
             this.lbchangepass.AutoSize = true;
             this.lbchangepass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbchangepass.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lbchangepass.Location = new System.Drawing.Point(12, 36);
+            this.lbchangepass.Location = new System.Drawing.Point(15, 62);
             this.lbchangepass.Name = "lbchangepass";
             this.lbchangepass.Size = new System.Drawing.Size(121, 17);
             this.lbchangepass.TabIndex = 0;
@@ -116,7 +117,7 @@
             // lbuid
             // 
             this.lbuid.AutoSize = true;
-            this.lbuid.Location = new System.Drawing.Point(408, 36);
+            this.lbuid.Location = new System.Drawing.Point(442, 74);
             this.lbuid.Name = "lbuid";
             this.lbuid.Size = new System.Drawing.Size(34, 17);
             this.lbuid.TabIndex = 0;
@@ -125,7 +126,7 @@
             // lbuname
             // 
             this.lbuname.AutoSize = true;
-            this.lbuname.Location = new System.Drawing.Point(408, 72);
+            this.lbuname.Location = new System.Drawing.Point(442, 110);
             this.lbuname.Name = "lbuname";
             this.lbuname.Size = new System.Drawing.Size(58, 17);
             this.lbuname.TabIndex = 0;
@@ -134,7 +135,7 @@
             // lbuemail
             // 
             this.lbuemail.AutoSize = true;
-            this.lbuemail.Location = new System.Drawing.Point(408, 115);
+            this.lbuemail.Location = new System.Drawing.Point(442, 153);
             this.lbuemail.Name = "lbuemail";
             this.lbuemail.Size = new System.Drawing.Size(56, 17);
             this.lbuemail.TabIndex = 0;
@@ -143,7 +144,7 @@
             // lbuphone
             // 
             this.lbuphone.AutoSize = true;
-            this.lbuphone.Location = new System.Drawing.Point(408, 157);
+            this.lbuphone.Location = new System.Drawing.Point(442, 195);
             this.lbuphone.Name = "lbuphone";
             this.lbuphone.Size = new System.Drawing.Size(63, 17);
             this.lbuphone.TabIndex = 0;
@@ -176,7 +177,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(59, 270);
+            this.label12.Location = new System.Drawing.Point(61, 283);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(104, 17);
             this.label12.TabIndex = 0;
@@ -185,7 +186,7 @@
             // btnback
             // 
             this.btnback.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnback.Location = new System.Drawing.Point(890, 62);
+            this.btnback.Location = new System.Drawing.Point(885, 35);
             this.btnback.Name = "btnback";
             this.btnback.Size = new System.Drawing.Size(108, 44);
             this.btnback.TabIndex = 1;
@@ -327,7 +328,7 @@
             // 
             // txtoldpass
             // 
-            this.txtoldpass.Location = new System.Drawing.Point(141, 79);
+            this.txtoldpass.Location = new System.Drawing.Point(150, 102);
             this.txtoldpass.Name = "txtoldpass";
             this.txtoldpass.PasswordChar = '*';
             this.txtoldpass.Size = new System.Drawing.Size(151, 23);
@@ -336,7 +337,7 @@
             // 
             // btnoknewpass
             // 
-            this.btnoknewpass.Location = new System.Drawing.Point(141, 223);
+            this.btnoknewpass.Location = new System.Drawing.Point(141, 237);
             this.btnoknewpass.Name = "btnoknewpass";
             this.btnoknewpass.Size = new System.Drawing.Size(53, 30);
             this.btnoknewpass.TabIndex = 5;
@@ -347,7 +348,7 @@
             // 
             // txtnewpass
             // 
-            this.txtnewpass.Location = new System.Drawing.Point(141, 123);
+            this.txtnewpass.Location = new System.Drawing.Point(150, 146);
             this.txtnewpass.Name = "txtnewpass";
             this.txtnewpass.PasswordChar = '*';
             this.txtnewpass.Size = new System.Drawing.Size(151, 23);
@@ -356,7 +357,7 @@
             // 
             // btncalnewpass
             // 
-            this.btncalnewpass.Location = new System.Drawing.Point(204, 223);
+            this.btncalnewpass.Location = new System.Drawing.Point(204, 237);
             this.btncalnewpass.Name = "btncalnewpass";
             this.btncalnewpass.Size = new System.Drawing.Size(88, 30);
             this.btncalnewpass.TabIndex = 5;
@@ -367,7 +368,7 @@
             // 
             // txtcnewpass
             // 
-            this.txtcnewpass.Location = new System.Drawing.Point(141, 169);
+            this.txtcnewpass.Location = new System.Drawing.Point(150, 192);
             this.txtcnewpass.Name = "txtcnewpass";
             this.txtcnewpass.PasswordChar = '*';
             this.txtcnewpass.Size = new System.Drawing.Size(151, 23);
@@ -377,7 +378,7 @@
             // lboldpass
             // 
             this.lboldpass.AutoSize = true;
-            this.lboldpass.Location = new System.Drawing.Point(6, 81);
+            this.lboldpass.Location = new System.Drawing.Point(15, 104);
             this.lboldpass.Name = "lboldpass";
             this.lboldpass.Size = new System.Drawing.Size(74, 17);
             this.lboldpass.TabIndex = 6;
@@ -387,7 +388,7 @@
             // lbnewpass
             // 
             this.lbnewpass.AutoSize = true;
-            this.lbnewpass.Location = new System.Drawing.Point(6, 125);
+            this.lbnewpass.Location = new System.Drawing.Point(15, 148);
             this.lbnewpass.Name = "lbnewpass";
             this.lbnewpass.Size = new System.Drawing.Size(79, 17);
             this.lbnewpass.TabIndex = 6;
@@ -397,12 +398,22 @@
             // lbcnewpass
             // 
             this.lbcnewpass.AutoSize = true;
-            this.lbcnewpass.Location = new System.Drawing.Point(6, 172);
+            this.lbcnewpass.Location = new System.Drawing.Point(15, 195);
             this.lbcnewpass.Name = "lbcnewpass";
             this.lbcnewpass.Size = new System.Drawing.Size(88, 17);
             this.lbcnewpass.TabIndex = 6;
             this.lbcnewpass.Text = "CNew Passw";
             this.lbcnewpass.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(409, 21);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(186, 31);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Personal Page";
             // 
             // userinfor
             // 
@@ -410,6 +421,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(1067, 510);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lbcnewpass);
             this.Controls.Add(this.lbnewpass);
             this.Controls.Add(this.lboldpass);
@@ -487,5 +499,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn BorrowedDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn ReturnDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn BookBorrowed;
+        private System.Windows.Forms.Label label5;
     }
 }

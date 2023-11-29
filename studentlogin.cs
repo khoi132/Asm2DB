@@ -52,7 +52,7 @@ namespace Asm2DB
             if (string.IsNullOrWhiteSpace(txtaccount1.Text) || string.IsNullOrWhiteSpace(txtpassword1.Text))
             {
                 MessageBox.Show("Username or password is empty!");
-                return; // Thoát khỏi sự kiện nếu tài khoản hoặc mật khẩu trống
+                return; 
             }
 
             try
@@ -83,21 +83,21 @@ namespace Asm2DB
 
                     if (RoleID == 1)
                     {
-                        // Người dùng có vai trò Admin
+                        
                         admininterf admininterf = new admininterf(txtaccount1.Text);
                         admininterf.Show();
                     }
                     else if (RoleID == 2)
                     {
-                        // Người dùng có vai trò Người dùng
+                        
                         usinterf usinterf = new usinterf(txtaccount1.Text);
                         usinterf.Show();
                     }
                 
                     else
                     {
-                        // Xử lý trường hợp khác nếu cần thiết
-                        MessageBox.Show("Không tìm thấy vai trò người dùng.");
+                        
+                        MessageBox.Show("No user roles found.");
                     }
                 }
                 else

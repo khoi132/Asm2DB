@@ -46,6 +46,7 @@
             this.txtuemail = new System.Windows.Forms.TextBox();
             this.txtuphone = new System.Windows.Forms.TextBox();
             this.txtupass = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btndeleteu
@@ -72,7 +73,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 168);
+            this.label5.Location = new System.Drawing.Point(72, 210);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 17);
             this.label5.TabIndex = 3;
@@ -81,7 +82,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(53, 125);
+            this.label4.Location = new System.Drawing.Point(63, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 17);
             this.label4.TabIndex = 4;
@@ -90,7 +91,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 208);
+            this.label3.Location = new System.Drawing.Point(34, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 17);
             this.label3.TabIndex = 5;
@@ -99,7 +100,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 83);
+            this.label2.Location = new System.Drawing.Point(73, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 6;
@@ -108,7 +109,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 45);
+            this.label1.Location = new System.Drawing.Point(106, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 17);
             this.label1.TabIndex = 7;
@@ -127,7 +128,7 @@
             // lbuid
             // 
             this.lbuid.AutoSize = true;
-            this.lbuid.Location = new System.Drawing.Point(144, 45);
+            this.lbuid.Location = new System.Drawing.Point(154, 87);
             this.lbuid.Name = "lbuid";
             this.lbuid.Size = new System.Drawing.Size(27, 17);
             this.lbuid.TabIndex = 7;
@@ -136,7 +137,7 @@
             // lbuname
             // 
             this.lbuname.AutoSize = true;
-            this.lbuname.Location = new System.Drawing.Point(144, 83);
+            this.lbuname.Location = new System.Drawing.Point(154, 125);
             this.lbuname.Name = "lbuname";
             this.lbuname.Size = new System.Drawing.Size(51, 17);
             this.lbuname.TabIndex = 6;
@@ -145,7 +146,7 @@
             // lbupass
             // 
             this.lbupass.AutoSize = true;
-            this.lbupass.Location = new System.Drawing.Point(139, 208);
+            this.lbupass.Location = new System.Drawing.Point(149, 250);
             this.lbupass.Name = "lbupass";
             this.lbupass.Size = new System.Drawing.Size(46, 17);
             this.lbupass.TabIndex = 5;
@@ -154,7 +155,7 @@
             // lbuphone
             // 
             this.lbuphone.AutoSize = true;
-            this.lbuphone.Location = new System.Drawing.Point(139, 125);
+            this.lbuphone.Location = new System.Drawing.Point(149, 167);
             this.lbuphone.Name = "lbuphone";
             this.lbuphone.Size = new System.Drawing.Size(56, 17);
             this.lbuphone.TabIndex = 4;
@@ -163,7 +164,7 @@
             // lbuemail
             // 
             this.lbuemail.AutoSize = true;
-            this.lbuemail.Location = new System.Drawing.Point(139, 168);
+            this.lbuemail.Location = new System.Drawing.Point(149, 210);
             this.lbuemail.Name = "lbuemail";
             this.lbuemail.Size = new System.Drawing.Size(49, 17);
             this.lbuemail.TabIndex = 3;
@@ -171,7 +172,7 @@
             // 
             // btnok
             // 
-            this.btnok.Location = new System.Drawing.Point(495, 124);
+            this.btnok.Location = new System.Drawing.Point(494, 164);
             this.btnok.Name = "btnok";
             this.btnok.Size = new System.Drawing.Size(102, 36);
             this.btnok.TabIndex = 6;
@@ -183,7 +184,7 @@
             // btncal
             // 
             this.btncal.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btncal.Location = new System.Drawing.Point(495, 166);
+            this.btncal.Location = new System.Drawing.Point(494, 206);
             this.btncal.Name = "btncal";
             this.btncal.Size = new System.Drawing.Size(104, 43);
             this.btncal.TabIndex = 7;
@@ -194,7 +195,7 @@
             // 
             // txtuemail
             // 
-            this.txtuemail.Location = new System.Drawing.Point(295, 165);
+            this.txtuemail.Location = new System.Drawing.Point(294, 205);
             this.txtuemail.MaxLength = 50;
             this.txtuemail.Name = "txtuemail";
             this.txtuemail.Size = new System.Drawing.Size(175, 23);
@@ -203,7 +204,7 @@
             // 
             // txtuphone
             // 
-            this.txtuphone.Location = new System.Drawing.Point(295, 125);
+            this.txtuphone.Location = new System.Drawing.Point(294, 165);
             this.txtuphone.MaxLength = 20;
             this.txtuphone.Name = "txtuphone";
             this.txtuphone.Size = new System.Drawing.Size(175, 23);
@@ -213,12 +214,22 @@
             // 
             // txtupass
             // 
-            this.txtupass.Location = new System.Drawing.Point(295, 210);
+            this.txtupass.Location = new System.Drawing.Point(294, 250);
             this.txtupass.MaxLength = 20;
             this.txtupass.Name = "txtupass";
             this.txtupass.Size = new System.Drawing.Size(175, 23);
             this.txtupass.TabIndex = 5;
             this.txtupass.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(252, 18);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(168, 31);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Edit Account";
             // 
             // editdeleteacc
             // 
@@ -226,6 +237,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(643, 457);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnok);
             this.Controls.Add(this.btncal);
             this.Controls.Add(this.txtuemail);
@@ -274,5 +286,6 @@
         private System.Windows.Forms.TextBox txtuemail;
         private System.Windows.Forms.TextBox txtuphone;
         private System.Windows.Forms.TextBox txtupass;
+        private System.Windows.Forms.Label label6;
     }
 }

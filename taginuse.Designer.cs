@@ -38,6 +38,7 @@
             this.btnmovetag = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
             this.lbtid = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtaginuse)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,12 +141,23 @@
             this.lbtid.Size = new System.Drawing.Size(0, 17);
             this.lbtid.TabIndex = 5;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(333, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(153, 28);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Manage Tags";
+            // 
             // taginuse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(800, 401);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbtid);
             this.Controls.Add(this.btnmovetag);
             this.Controls.Add(this.btnrefresh);
@@ -174,5 +186,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn BorrowedDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn ReturnDate;
         private System.Windows.Forms.Label lbtid;
+        private System.Windows.Forms.Label label1;
     }
 }

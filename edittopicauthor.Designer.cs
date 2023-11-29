@@ -38,6 +38,7 @@
             this.txteditname = new System.Windows.Forms.TextBox();
             this.btncal = new System.Windows.Forms.Button();
             this.btnok = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnedit
@@ -73,7 +74,7 @@
             // lbid
             // 
             this.lbid.AutoSize = true;
-            this.lbid.Location = new System.Drawing.Point(78, 64);
+            this.lbid.Location = new System.Drawing.Point(80, 66);
             this.lbid.Name = "lbid";
             this.lbid.Size = new System.Drawing.Size(51, 17);
             this.lbid.TabIndex = 1;
@@ -82,7 +83,7 @@
             // lbname
             // 
             this.lbname.AutoSize = true;
-            this.lbname.Location = new System.Drawing.Point(44, 110);
+            this.lbname.Location = new System.Drawing.Point(46, 112);
             this.lbname.Name = "lbname";
             this.lbname.Size = new System.Drawing.Size(75, 17);
             this.lbname.TabIndex = 1;
@@ -91,7 +92,7 @@
             // lbvalueid
             // 
             this.lbvalueid.AutoSize = true;
-            this.lbvalueid.Location = new System.Drawing.Point(168, 64);
+            this.lbvalueid.Location = new System.Drawing.Point(170, 66);
             this.lbvalueid.Name = "lbvalueid";
             this.lbvalueid.Size = new System.Drawing.Size(46, 17);
             this.lbvalueid.TabIndex = 1;
@@ -100,7 +101,7 @@
             // lbvaluename
             // 
             this.lbvaluename.AutoSize = true;
-            this.lbvaluename.Location = new System.Drawing.Point(168, 110);
+            this.lbvaluename.Location = new System.Drawing.Point(170, 112);
             this.lbvaluename.Name = "lbvaluename";
             this.lbvaluename.Size = new System.Drawing.Size(46, 17);
             this.lbvaluename.TabIndex = 1;
@@ -138,11 +139,22 @@
             this.btnok.Visible = false;
             this.btnok.Click += new System.EventHandler(this.btnok_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(167, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(154, 31);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Edit Author";
+            // 
             // edittopicauthor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 369);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnok);
             this.Controls.Add(this.btncal);
             this.Controls.Add(this.txteditname);
@@ -175,5 +187,6 @@
         private System.Windows.Forms.TextBox txteditname;
         private System.Windows.Forms.Button btncal;
         private System.Windows.Forms.Button btnok;
+        private System.Windows.Forms.Label label1;
     }
 }

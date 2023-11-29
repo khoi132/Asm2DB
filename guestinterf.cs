@@ -41,7 +41,7 @@ namespace Asm2DB
         {
             
 
-            // Hiển thị lại trang studentlogin
+            // Return Login Page
             studentlogin loginForm = new studentlogin();
             loginForm.Show();
         }

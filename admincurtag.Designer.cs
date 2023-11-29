@@ -47,6 +47,7 @@
             this.btnclear = new System.Windows.Forms.Button();
             this.timepickborrow = new System.Windows.Forms.DateTimePicker();
             this.timepickreturn = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvcurrenttag)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,7 +95,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(87, 62);
+            this.label1.Location = new System.Drawing.Point(106, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 17);
             this.label1.TabIndex = 1;
@@ -103,7 +104,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 105);
+            this.label2.Location = new System.Drawing.Point(70, 122);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 17);
             this.label2.TabIndex = 1;
@@ -112,7 +113,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 150);
+            this.label3.Location = new System.Drawing.Point(69, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 17);
             this.label3.TabIndex = 1;
@@ -121,7 +122,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(81, 191);
+            this.label4.Location = new System.Drawing.Point(99, 208);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 17);
             this.label4.TabIndex = 1;
@@ -130,7 +131,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(81, 238);
+            this.label5.Location = new System.Drawing.Point(99, 255);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 17);
             this.label5.TabIndex = 1;
@@ -138,27 +139,27 @@
             // 
             // txttagid
             // 
-            this.txttagid.Location = new System.Drawing.Point(170, 62);
+            this.txttagid.Location = new System.Drawing.Point(188, 79);
             this.txttagid.MaxLength = 7;
             this.txttagid.Name = "txttagid";
-            this.txttagid.Size = new System.Drawing.Size(187, 23);
+            this.txttagid.Size = new System.Drawing.Size(200, 23);
             this.txttagid.TabIndex = 1;
             this.txttagid.TextChanged += new System.EventHandler(this.txttagid_TextChanged);
             // 
             // txtuid
             // 
-            this.txtuid.Location = new System.Drawing.Point(170, 191);
+            this.txtuid.Location = new System.Drawing.Point(188, 208);
             this.txtuid.MaxLength = 7;
             this.txtuid.Name = "txtuid";
-            this.txtuid.Size = new System.Drawing.Size(187, 23);
+            this.txtuid.Size = new System.Drawing.Size(200, 23);
             this.txtuid.TabIndex = 4;
             // 
             // txtbid
             // 
-            this.txtbid.Location = new System.Drawing.Point(170, 238);
+            this.txtbid.Location = new System.Drawing.Point(188, 255);
             this.txtbid.MaxLength = 7;
             this.txtbid.Name = "txtbid";
-            this.txtbid.Size = new System.Drawing.Size(187, 23);
+            this.txtbid.Size = new System.Drawing.Size(200, 23);
             this.txtbid.TabIndex = 5;
             // 
             // btnrefresh
@@ -215,7 +216,7 @@
             // timepickborrow
             // 
             this.timepickborrow.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.timepickborrow.Location = new System.Drawing.Point(170, 105);
+            this.timepickborrow.Location = new System.Drawing.Point(188, 122);
             this.timepickborrow.Name = "timepickborrow";
             this.timepickborrow.Size = new System.Drawing.Size(200, 23);
             this.timepickborrow.TabIndex = 2;
@@ -223,10 +224,21 @@
             // timepickreturn
             // 
             this.timepickreturn.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.timepickreturn.Location = new System.Drawing.Point(170, 150);
+            this.timepickreturn.Location = new System.Drawing.Point(188, 167);
             this.timepickreturn.Name = "timepickreturn";
             this.timepickreturn.Size = new System.Drawing.Size(200, 23);
             this.timepickreturn.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(115, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(311, 31);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Manager borrows books";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // admincurtag
             // 
@@ -235,6 +247,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnback;
             this.ClientSize = new System.Drawing.Size(1067, 438);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.timepickreturn);
             this.Controls.Add(this.timepickborrow);
             this.Controls.Add(this.btnclear);
@@ -283,5 +296,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Descriptions;
         private System.Windows.Forms.DateTimePicker timepickborrow;
         private System.Windows.Forms.DateTimePicker timepickreturn;
+        private System.Windows.Forms.Label label6;
     }
 }

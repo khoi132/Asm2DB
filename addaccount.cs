@@ -131,7 +131,7 @@ namespace Asm2DB
                 try
                 {
                     SqlCommand cmd = conn.CreateCommand();
-                    cmd.CommandText = "delete from Register where UserID = @uid";
+                    cmd.CommandText = "delete from Users where UserID = @uid";
                     cmd.Parameters.Add("@uid", SqlDbType.NChar, 7).Value = txtuid.Text;
                     cmd.ExecuteNonQuery();
 

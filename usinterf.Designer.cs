@@ -48,6 +48,8 @@
             this.btncurrtag = new System.Windows.Forms.Button();
             this.btnmoreinf = new System.Windows.Forms.Button();
             this.btnrefresh = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvbookinf)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(215, 49);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 25);
+            this.label7.Size = new System.Drawing.Size(59, 17);
             this.label7.TabIndex = 0;
             this.label7.Text = "UserID: ";
             this.label7.Click += new System.EventHandler(this.userid_Click);
@@ -66,58 +68,58 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(182, 86);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(116, 25);
+            this.label6.Size = new System.Drawing.Size(83, 17);
             this.label6.TabIndex = 0;
             this.label6.Text = "UserName: ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(654, 51);
+            this.label1.Location = new System.Drawing.Point(654, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 25);
+            this.label1.Size = new System.Drawing.Size(85, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "BookName: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(650, 124);
+            this.label2.Location = new System.Drawing.Point(650, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 25);
+            this.label2.Size = new System.Drawing.Size(88, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "TopicName: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(641, 86);
+            this.label3.Location = new System.Drawing.Point(641, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 25);
+            this.label3.Size = new System.Drawing.Size(95, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "AuthorName: ";
             // 
             // txtbname
             // 
-            this.txtbname.Location = new System.Drawing.Point(785, 46);
+            this.txtbname.Location = new System.Drawing.Point(785, 77);
             this.txtbname.Name = "txtbname";
-            this.txtbname.Size = new System.Drawing.Size(184, 30);
+            this.txtbname.Size = new System.Drawing.Size(184, 23);
             this.txtbname.TabIndex = 1;
             this.txtbname.TextChanged += new System.EventHandler(this.txtbname_TextChanged);
             // 
             // txtauthor
             // 
-            this.txtauthor.Location = new System.Drawing.Point(785, 86);
+            this.txtauthor.Location = new System.Drawing.Point(785, 117);
             this.txtauthor.Name = "txtauthor";
-            this.txtauthor.Size = new System.Drawing.Size(184, 30);
+            this.txtauthor.Size = new System.Drawing.Size(184, 23);
             this.txtauthor.TabIndex = 2;
             this.txtauthor.TextChanged += new System.EventHandler(this.txtauthor_TextChanged);
             // 
             // txttopic
             // 
-            this.txttopic.Location = new System.Drawing.Point(785, 124);
+            this.txttopic.Location = new System.Drawing.Point(785, 155);
             this.txttopic.Name = "txttopic";
-            this.txttopic.Size = new System.Drawing.Size(184, 30);
+            this.txttopic.Size = new System.Drawing.Size(184, 23);
             this.txttopic.TabIndex = 3;
             this.txttopic.TextChanged += new System.EventHandler(this.txttopic_TextChanged);
             // 
@@ -196,7 +198,7 @@
             this.lbuid.AutoSize = true;
             this.lbuid.Location = new System.Drawing.Point(293, 51);
             this.lbuid.Name = "lbuid";
-            this.lbuid.Size = new System.Drawing.Size(64, 25);
+            this.lbuid.Size = new System.Drawing.Size(46, 17);
             this.lbuid.TabIndex = 6;
             this.lbuid.Text = "Guest";
             // 
@@ -205,7 +207,7 @@
             this.lbuname.AutoSize = true;
             this.lbuname.Location = new System.Drawing.Point(293, 86);
             this.lbuname.Name = "lbuname";
-            this.lbuname.Size = new System.Drawing.Size(64, 25);
+            this.lbuname.Size = new System.Drawing.Size(46, 17);
             this.lbuname.TabIndex = 6;
             this.lbuname.Text = "Guest";
             // 
@@ -239,11 +241,33 @@
             this.btnrefresh.UseVisualStyleBackColor = true;
             this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(404, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(177, 29);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Borrow Books";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(850, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(63, 22);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Search";
+            // 
             // usinterf
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1011, 485);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnrefresh);
             this.Controls.Add(this.btncurrtag);
             this.Controls.Add(this.btnmoreinf);
@@ -292,5 +316,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn AuthorName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descriptions;
         private System.Windows.Forms.Button btnrefresh;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }

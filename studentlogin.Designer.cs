@@ -44,7 +44,7 @@
             // 
             this.btnlogin.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogin.Location = new System.Drawing.Point(541, 203);
+            this.btnlogin.Location = new System.Drawing.Point(546, 147);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(108, 39);
             this.btnlogin.TabIndex = 3;
@@ -56,7 +56,7 @@
             // 
             this.btnexit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnexit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnexit.Location = new System.Drawing.Point(541, 250);
+            this.btnexit.Location = new System.Drawing.Point(546, 194);
             this.btnexit.Name = "btnexit";
             this.btnexit.Size = new System.Drawing.Size(108, 39);
             this.btnexit.TabIndex = 4;
@@ -67,7 +67,7 @@
             // txtpassword1
             // 
             this.txtpassword1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword1.Location = new System.Drawing.Point(227, 250);
+            this.txtpassword1.Location = new System.Drawing.Point(232, 194);
             this.txtpassword1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtpassword1.Name = "txtpassword1";
             this.txtpassword1.PasswordChar = '*';
@@ -77,7 +77,7 @@
             // txtaccount1
             // 
             this.txtaccount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtaccount1.Location = new System.Drawing.Point(227, 203);
+            this.txtaccount1.Location = new System.Drawing.Point(232, 147);
             this.txtaccount1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtaccount1.Name = "txtaccount1";
             this.txtaccount1.Size = new System.Drawing.Size(258, 29);
@@ -88,7 +88,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(92, 203);
+            this.label3.Location = new System.Drawing.Point(97, 147);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 20);
@@ -99,7 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(76, 248);
+            this.label2.Location = new System.Drawing.Point(81, 192);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 20);
@@ -109,11 +109,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(320, 122);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(325, 66);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
+            this.label1.Size = new System.Drawing.Size(82, 31);
             this.label1.TabIndex = 5;
             this.label1.Text = "Login";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -123,7 +123,7 @@
             this.lbforgotpass.AutoSize = true;
             this.lbforgotpass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbforgotpass.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lbforgotpass.Location = new System.Drawing.Point(222, 305);
+            this.lbforgotpass.Location = new System.Drawing.Point(227, 249);
             this.lbforgotpass.Name = "lbforgotpass";
             this.lbforgotpass.Size = new System.Drawing.Size(121, 17);
             this.lbforgotpass.TabIndex = 5;

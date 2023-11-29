@@ -40,12 +40,13 @@
             this.lbbdes = new System.Windows.Forms.Label();
             this.btnback = new System.Windows.Forms.Button();
             this.btnadd = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(164, 60);
+            this.label1.Location = new System.Drawing.Point(188, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 17);
             this.label1.TabIndex = 0;
@@ -54,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(131, 101);
+            this.label2.Location = new System.Drawing.Point(164, 138);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 0;
@@ -63,7 +64,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(134, 145);
+            this.label3.Location = new System.Drawing.Point(166, 182);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 17);
             this.label3.TabIndex = 0;
@@ -72,16 +73,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(125, 191);
+            this.label4.Location = new System.Drawing.Point(159, 228);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 17);
             this.label4.TabIndex = 0;
             this.label4.Text = "Author: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(86, 237);
+            this.label5.Location = new System.Drawing.Point(139, 274);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 17);
             this.label5.TabIndex = 0;
@@ -90,7 +92,7 @@
             // lbbid
             // 
             this.lbbid.AutoSize = true;
-            this.lbbid.Location = new System.Drawing.Point(232, 60);
+            this.lbbid.Location = new System.Drawing.Point(265, 97);
             this.lbbid.Name = "lbbid";
             this.lbbid.Size = new System.Drawing.Size(27, 17);
             this.lbbid.TabIndex = 0;
@@ -99,7 +101,7 @@
             // lbbname
             // 
             this.lbbname.AutoSize = true;
-            this.lbbname.Location = new System.Drawing.Point(232, 101);
+            this.lbbname.Location = new System.Drawing.Point(265, 138);
             this.lbbname.Name = "lbbname";
             this.lbbname.Size = new System.Drawing.Size(51, 17);
             this.lbbname.TabIndex = 0;
@@ -109,7 +111,7 @@
             // lbbtopic
             // 
             this.lbbtopic.AutoSize = true;
-            this.lbbtopic.Location = new System.Drawing.Point(232, 145);
+            this.lbbtopic.Location = new System.Drawing.Point(265, 182);
             this.lbbtopic.Name = "lbbtopic";
             this.lbbtopic.Size = new System.Drawing.Size(46, 17);
             this.lbbtopic.TabIndex = 0;
@@ -118,7 +120,7 @@
             // lbbauthor
             // 
             this.lbbauthor.AutoSize = true;
-            this.lbbauthor.Location = new System.Drawing.Point(232, 191);
+            this.lbbauthor.Location = new System.Drawing.Point(265, 228);
             this.lbbauthor.Name = "lbbauthor";
             this.lbbauthor.Size = new System.Drawing.Size(57, 17);
             this.lbbauthor.TabIndex = 0;
@@ -127,7 +129,7 @@
             // lbbdes
             // 
             this.lbbdes.AutoSize = true;
-            this.lbbdes.Location = new System.Drawing.Point(232, 237);
+            this.lbbdes.Location = new System.Drawing.Point(265, 274);
             this.lbbdes.Name = "lbbdes";
             this.lbbdes.Size = new System.Drawing.Size(39, 17);
             this.lbbdes.TabIndex = 0;
@@ -135,7 +137,7 @@
             // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(94, 386);
+            this.btnback.Location = new System.Drawing.Point(94, 366);
             this.btnback.Name = "btnback";
             this.btnback.Size = new System.Drawing.Size(112, 53);
             this.btnback.TabIndex = 1;
@@ -145,7 +147,7 @@
             // 
             // btnadd
             // 
-            this.btnadd.Location = new System.Drawing.Point(237, 386);
+            this.btnadd.Location = new System.Drawing.Point(237, 366);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(112, 53);
             this.btnadd.TabIndex = 1;
@@ -153,11 +155,22 @@
             this.btnadd.UseVisualStyleBackColor = true;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(136, 25);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(202, 28);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Book Information";
+            // 
             // bookinfor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 491);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.lbbdes);
@@ -194,5 +207,6 @@
         private System.Windows.Forms.Label lbbdes;
         private System.Windows.Forms.Button btnback;
         private System.Windows.Forms.Button btnadd;
+        private System.Windows.Forms.Label label6;
     }
 }

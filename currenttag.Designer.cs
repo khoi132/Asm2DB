@@ -37,6 +37,7 @@
             this.btnrefresh = new System.Windows.Forms.Button();
             this.lbuid = new System.Windows.Forms.Label();
             this.lbbid = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvbookinf)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,11 +134,22 @@
             this.lbbid.TabIndex = 8;
             this.lbbid.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(298, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(141, 31);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "CurrenTag";
+            // 
             // currenttag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 317);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbbid);
             this.Controls.Add(this.lbuid);
             this.Controls.Add(this.dgvbookinf);
@@ -167,5 +179,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn BookID;
         private System.Windows.Forms.Label lbuid;
         private System.Windows.Forms.Label lbbid;
+        private System.Windows.Forms.Label label1;
     }
 }

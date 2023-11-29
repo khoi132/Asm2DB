@@ -62,6 +62,7 @@
             this.btnback = new System.Windows.Forms.Button();
             this.btnrefreshtp = new System.Windows.Forms.Button();
             this.btnrefreshau = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtopic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvauthor)).BeginInit();
             this.SuspendLayout();
@@ -418,12 +419,23 @@
             this.btnrefreshau.Visible = false;
             this.btnrefreshau.Click += new System.EventHandler(this.btnrefreshau_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(440, -2);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(182, 31);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "Manage Book";
+            // 
             // addbook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnbacktopic;
             this.ClientSize = new System.Drawing.Size(1085, 362);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.dgvauthor);
             this.Controls.Add(this.dgvtopic);
             this.Controls.Add(this.lbaddauthor);
@@ -502,5 +514,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn AuthorName;
         private System.Windows.Forms.Button btnrefreshtp;
         private System.Windows.Forms.Button btnrefreshau;
+        private System.Windows.Forms.Label label10;
     }
 }
